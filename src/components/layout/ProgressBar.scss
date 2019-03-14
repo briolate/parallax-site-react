@@ -1,0 +1,13 @@
+.progress-bar {
+  position: fixed;
+  display: flex;
+
+  li {
+    font-size: 36px;
+    margin: 70px 0px;
+    color: #ffffff;
+  }
+  li.active {
+    color: #e64398;
+  }
+}

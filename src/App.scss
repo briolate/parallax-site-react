@@ -1,0 +1,45 @@
+body {
+  position: relative;
+  background-color: #f2eedd;
+  background-image: linear-gradient(to bottom, #a1c3d1 0%, #ffecd2 100%);
+  height: 400rem;
+  min-height: 300vh;
+}
+
+.header {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+
+  h1 {
+    margin: 0 auto;
+    position: relative;
+    font: 170px Helvetica, Sans-Serif;
+    letter-spacing: -5px;
+    color: rgba(230, 67, 152, 0.5);
+    z-index: 5;
+  }
+
+  h1:after {
+    content: 'Welcome';
+    position: absolute;
+    left: 10px;
+    top: 5px;
+    color: rgba(243, 12, 12, 0.541);
+    z-index: 3;
+  }
+}
+
+#svg1 {
+  position: absolute;
+  width: 100%;
+  height: auto;
+  stroke: #b39bc8;
+}
+
+#svg2 {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  stroke: rgba(255, 255, 255, 0.7);
+}
