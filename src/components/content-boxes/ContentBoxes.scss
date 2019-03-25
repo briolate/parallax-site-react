@@ -1,0 +1,30 @@
+.content-box {
+  width: 18rem;
+  padding: 2rem;
+  transition: 0.5s;
+}
+
+.content-box:hover {
+  transform: scale(1.1);
+  transition: 0.3s;
+  box-shadow: 5px 10px 10px #414141;
+}
+
+.content-box-1 {
+  background: #93ff69;
+}
+
+.content-box-2 {
+  background: #01ccc2;
+  float: right;
+}
+
+.content-box-3 {
+  background: rgb(205, 253, 31);
+  clear: both;
+}
+
+.content-box-4 {
+  background: #93ff69;
+  float: right;
+}

@@ -1,0 +1,20 @@
+.progress-bar {
+  position: fixed;
+  top: 0;
+  width: 6rem;
+  background: rgba(205, 253, 31, 0.938);
+
+  ul.progress-bar__list {
+    display: flex;
+    justify-content: space-between;
+    margin-left: -0.5rem;
+  }
+
+  .progress-bar__list li {
+    font-size: 26px;
+    color: #414141;
+  }
+  .progress-bar__list li.active {
+    color: #00bdbd;
+  }
+}

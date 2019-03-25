@@ -1,0 +1,17 @@
+.theme-selector {
+  height: 100vh;
+  position: absolute;
+  right: 0;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+
+  img {
+    height: 50%;
+    overflow: hidden;
+    margin-right: -11.5rem;
+  }
+  img:hover {
+    cursor: pointer;
+  }
+}
